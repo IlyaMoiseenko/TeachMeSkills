@@ -1,13 +1,37 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        _getAndPrintData();
+    }
 
-        // print a message without going to the next Line
-        System.out.print ("Welcome to Java.");
-        System.out.print ("This is the next line...");
+    private static void _getAndPrintData() {
+        Scanner scanner = _createScanner();
 
-        // print vs print in
-        System.out.println();
-        System.out.println(122);
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.print("Enter your surname: ");
+        String surName = scanner.nextLine();
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+
+        System.out.print("Enter your height: ");
+        int height = scanner.nextInt();
+
+        System.out.print("Enter your weight: ");
+        int weight = scanner.nextInt();
+
+        System.out.println(
+                "Name: " + name +
+                "\nSurname: " + surName +
+                "\nAge: " + age +
+                "\nHeight: " + height +
+                "\nWeight: " + weight);
+    }
+
+    private static Scanner _createScanner() {
+        return new Scanner(System.in);
     }
 }
