@@ -3,7 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         _getAndPrintData();
+        System.out.println("---------");
+
         _numericValueOfSymbol();
+        System.out.println("---------");
+
+        _bodyMassIndex();
+        System.out.println("---------");
     }
 
     private static void _getAndPrintData() {
@@ -19,7 +25,7 @@ public class Main {
         int age = scanner.nextInt();
 
         System.out.print("Enter your height: ");
-        int height = scanner.nextInt();
+        double height = scanner.nextDouble();
 
         System.out.print("Enter your weight: ");
         int weight = scanner.nextInt();
@@ -39,6 +45,18 @@ public class Main {
         char value = scanner.next().charAt(0);
 
         System.out.println(value + ": " + (int)value);
+    }
+
+    private static void _bodyMassIndex() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter your height: ");
+        double height = scanner.nextDouble();
+
+        System.out.print("Enter your weight: ");
+        int weight = scanner.nextInt();
+
+        System.out.println("BodyMassIndex: " + weight / Math.pow(height, 2));
     }
 
     private static Scanner _createScanner() {
