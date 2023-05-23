@@ -12,6 +12,7 @@ public class Main {
         System.out.println(_sum());
         _printSequenceWithWhile();
         _printSequenceWithFor();
+        _squaresOfNumbers();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -135,5 +136,9 @@ public class Main {
         }
     }
 
-
+    private static void _squaresOfNumbers() {
+        for (int i = 10; i <= 20; i++) {
+            System.out.println(Math.pow(i, 2));
+        }
+    }
 }
