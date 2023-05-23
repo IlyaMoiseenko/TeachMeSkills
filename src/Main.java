@@ -7,11 +7,10 @@ public class Main {
         System.out.println(_evenNumber());
         System.out.println(_checkTheTemperature());
         System.out.println(_checkRainbowColors());
-
         _printOddNumbers();
         _reversePrint();
-
         System.out.println(_sum());
+        _printSequenceWithWhile();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -118,5 +117,11 @@ public class Main {
         return new Scanner(System.in);
     }
 
+    private static void _printSequenceWithWhile() {
+        int numberFrom = 0;
 
+        while (numberFrom < 98) {
+            System.out.println(numberFrom += 7);
+        }
+    }
 }
