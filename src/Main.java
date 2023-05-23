@@ -7,6 +7,8 @@ public class Main {
         System.out.println(_evenNumber());
         System.out.println(_checkTheTemperature());
         System.out.println(_checkRainbowColors());
+
+        _printOddNumbers();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -79,6 +81,12 @@ public class Main {
             case 7 -> "Violet";
             default -> "Please check input data";
         };
+    }
+
+    private static void _printOddNumbers() {
+        for (int i = 1; i <= 99; i += 2) {
+            System.out.println(i);
+        }
     }
 
     private static Scanner _createScanner() {
