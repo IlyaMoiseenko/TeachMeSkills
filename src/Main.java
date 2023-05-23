@@ -54,9 +54,9 @@ public class Main {
         double height = scanner.nextDouble();
 
         System.out.print("Enter your weight: ");
-        int weight = scanner.nextInt();
+        double weight = scanner.nextDouble();
 
-        System.out.println("BodyMassIndex: " + weight / Math.pow(height, 2));
+        System.out.println("BodyMassIndex: " + weight / Math.pow(height / 100, 2));
     }
 
     private static Scanner _createScanner() {
