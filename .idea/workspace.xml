@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Create brunch for homework #4">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Second task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1684864213712" duration="285000" />
       <workItem from="1684864934992" duration="1643000" />
-      <workItem from="1684870133330" duration="683000" />
+      <workItem from="1684870133330" duration="1378000" />
     </task>
     <task id="LOCAL-00001" summary="Update template">
       <created>1684864256819</created>
@@ -70,7 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684864401802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First task">
+      <created>1684871152096</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684871152096</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Second task">
+      <created>1684871208706</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684871208706</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +94,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update template" />
     <MESSAGE value="Create brunch for homework #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create brunch for homework #4" />
+    <MESSAGE value="First task" />
+    <MESSAGE value="Second task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second task" />
   </component>
 </project>

@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println(_timeOfTheYearSwitch());
         System.out.println(_timeOfTheYearIfElse());
+        System.out.println(_evenNumber());
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -36,6 +37,15 @@ public class Main {
         } else {
             return "Winter";
         }
+    }
+
+    private static boolean _evenNumber() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter the number: ");
+        int num = scanner.nextInt();
+
+        return num % 2 == 0;
     }
 
     private static Scanner _createScanner() {
