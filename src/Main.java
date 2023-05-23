@@ -9,6 +9,7 @@ public class Main {
         System.out.println(_checkRainbowColors());
 
         _printOddNumbers();
+        _reversePrint();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -91,5 +92,11 @@ public class Main {
 
     private static Scanner _createScanner() {
         return new Scanner(System.in);
+    }
+
+    private static void _reversePrint() {
+        for (int i = 5; i >= 1; i--) {
+            System.out.println(i);
+        }
     }
 }
