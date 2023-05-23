@@ -10,6 +10,8 @@ public class Main {
 
         _printOddNumbers();
         _reversePrint();
+
+        System.out.println(_sum());
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -90,13 +92,31 @@ public class Main {
         }
     }
 
-    private static Scanner _createScanner() {
-        return new Scanner(System.in);
-    }
-
     private static void _reversePrint() {
         for (int i = 5; i >= 1; i--) {
             System.out.println(i);
         }
     }
+
+    private static int _sum() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter the number: ");
+
+        int number = scanner.nextInt();
+        if (number < 0) return -1;
+
+        int sum = 0;
+        for (int i = 1; i <= number; i++) {
+            sum += i;
+        }
+
+        return sum;
+    }
+
+    private static Scanner _createScanner() {
+        return new Scanner(System.in);
+    }
+
+
 }
