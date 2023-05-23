@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Second task">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Third task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +54,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1684864213712" duration="285000" />
       <workItem from="1684864934992" duration="1643000" />
-      <workItem from="1684870133330" duration="1378000" />
+      <workItem from="1684870133330" duration="1987000" />
     </task>
     <task id="LOCAL-00001" summary="Update template">
       <created>1684864256819</created>
@@ -85,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684871208706</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Third task">
+      <created>1684871654019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684871654019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +102,7 @@
     <MESSAGE value="Create brunch for homework #4" />
     <MESSAGE value="First task" />
     <MESSAGE value="Second task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second task" />
+    <MESSAGE value="Third task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third task" />
   </component>
 </project>
