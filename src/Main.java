@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         System.out.println(_timeOfTheYearSwitch());
+        System.out.println(_timeOfTheYearIfElse());
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -18,6 +19,23 @@ public class Main {
             case 9, 10, 11 -> "Autumn";
             default -> "Please check input data";
         };
+    }
+
+    private static String _timeOfTheYearIfElse() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter the number of the month: ");
+        int num = scanner.nextInt();
+
+        if (num >= 3 && num <= 5) {
+            return "Spring";
+        } else if (num >= 6 && num <= 8) {
+            return "Summer";
+        } else if (num >= 9 && num <= 11) {
+            return "Autumn";
+        } else {
+            return "Winter";
+        }
     }
 
     private static Scanner _createScanner() {
