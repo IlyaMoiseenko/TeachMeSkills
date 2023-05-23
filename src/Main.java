@@ -13,6 +13,7 @@ public class Main {
         _printSequenceWithWhile();
         _printSequenceWithFor();
         _squaresOfNumbers();
+        System.out.println(_fibonacciSequence(11));
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -140,5 +141,11 @@ public class Main {
         for (int i = 10; i <= 20; i++) {
             System.out.println(Math.pow(i, 2));
         }
+    }
+
+    private static int _fibonacciSequence(int n) {
+        if (n <= 1) return n;
+
+        return _fibonacciSequence(n - 2) + _fibonacciSequence(n - 1);
     }
 }

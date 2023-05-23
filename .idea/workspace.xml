@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Ninth task">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Eleventh task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1684864213712" duration="285000" />
       <workItem from="1684864934992" duration="1643000" />
-      <workItem from="1684870133330" duration="3882000" />
+      <workItem from="1684870133330" duration="4958000" />
     </task>
     <task id="LOCAL-00001" summary="Update template">
       <created>1684864256819</created>
@@ -133,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1684873807323</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tenth task">
+      <created>1684874080100</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684874080100</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Eleventh task">
+      <created>1684874228782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684874228782</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +166,8 @@
     <MESSAGE value="Seventh task" />
     <MESSAGE value="Eighth task" />
     <MESSAGE value="Ninth task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ninth task" />
+    <MESSAGE value="Tenth task" />
+    <MESSAGE value="Eleventh task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eleventh task" />
   </component>
 </project>
