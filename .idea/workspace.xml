@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Eighth task">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Ninth task">
       <change beforePath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -54,7 +54,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1684864213712" duration="285000" />
       <workItem from="1684864934992" duration="1643000" />
-      <workItem from="1684870133330" duration="3561000" />
+      <workItem from="1684870133330" duration="3882000" />
     </task>
     <task id="LOCAL-00001" summary="Update template">
       <created>1684864256819</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684873604338</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ninth task">
+      <created>1684873807323</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684873807323</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="Sixth task" />
     <MESSAGE value="Seventh task" />
     <MESSAGE value="Eighth task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eighth task" />
+    <MESSAGE value="Ninth task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ninth task" />
   </component>
 </project>

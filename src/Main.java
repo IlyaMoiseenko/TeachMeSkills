@@ -11,6 +11,7 @@ public class Main {
         _reversePrint();
         System.out.println(_sum());
         _printSequenceWithWhile();
+        _printSequenceWithFor();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -124,4 +125,15 @@ public class Main {
             System.out.println(numberFrom += 7);
         }
     }
+
+    private static void _printSequenceWithFor() {
+        int count = 0;
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i + ". " + count);
+            count -= 5;
+        }
+    }
+
+
 }
