@@ -6,6 +6,7 @@ public class Main {
         System.out.println(_timeOfTheYearIfElse());
         System.out.println(_evenNumber());
         System.out.println(_checkTheTemperature());
+        System.out.println(_checkRainbowColors());
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -60,6 +61,24 @@ public class Main {
         else if (temperature < -20) return "Холодно";
 
         return "Please check input data";
+    }
+
+    private static String _checkRainbowColors() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter the color number: ");
+        int colorNumber = scanner.nextInt();
+
+        return switch (colorNumber) {
+            case 1 -> "Red";
+            case 2 -> "Orange";
+            case 3 -> "Yellow";
+            case 4 -> "Green";
+            case 5 -> "Blue";
+            case 6 -> "Indigo";
+            case 7 -> "Violet";
+            default -> "Please check input data";
+        };
     }
 
     private static Scanner _createScanner() {
