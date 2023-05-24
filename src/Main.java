@@ -54,9 +54,8 @@ public class Main {
         Scanner scanner = _createScanner();
 
         System.out.print("Enter the number: ");
-        int num = scanner.nextInt();
 
-        return num % 2 == 0;
+        return scanner.nextInt() % 2 == 0;
     }
 
     private static String _checkTheTemperature() {
@@ -91,8 +90,9 @@ public class Main {
     }
 
     private static void _printOddNumbers() {
-        for (int i = 1; i <= 99; i += 2) {
-            System.out.println(i);
+        for (int i = 1; i <= 99; i ++) {
+            if (i % 2 == 1)
+                System.out.println(i);
         }
     }
 
@@ -131,7 +131,7 @@ public class Main {
     }
 
     private static void _printSequenceWithFor() {
-        int count = 0;
+        int count = -5;
 
         for (int i = 0; i < 10; i++) {
             System.out.println(i + ". " + count);
