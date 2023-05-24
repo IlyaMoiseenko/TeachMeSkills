@@ -15,6 +15,7 @@ public class Main {
         _squaresOfNumbers();
         System.out.println(_fibonacciSequence(11));
         System.out.println(_calculateDepositAmount());
+        _printMultiplicationTable();
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -165,5 +166,13 @@ public class Main {
         }
 
         return deposit;
+    }
+
+    private static void _printMultiplicationTable() {
+        for (int i = 1; i < 10; i++) {
+            for (int j = 1; j <= 10; j++) {
+                System.out.println(i + " * " + j + " = " + i * j);
+            }
+        }
     }
 }
