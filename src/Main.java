@@ -14,6 +14,7 @@ public class Main {
         _printSequenceWithFor();
         _squaresOfNumbers();
         System.out.println(_fibonacciSequence(11));
+        System.out.println(_calculateDepositAmount());
     }
 
     private static String _timeOfTheYearSwitch() {
@@ -147,5 +148,22 @@ public class Main {
         if (n <= 1) return n;
 
         return _fibonacciSequence(n - 2) + _fibonacciSequence(n - 1);
+    }
+
+    private static float _calculateDepositAmount() {
+        Scanner scanner = _createScanner();
+
+        System.out.print("Enter deposit: ");
+        float deposit = scanner.nextFloat();
+
+        System.out.print("Enter month: ");
+        int month = scanner.nextInt();
+
+        for (int i = 0; i < month; i++) {
+            deposit += ((deposit * 7) / 100);
+
+        }
+
+        return deposit;
     }
 }

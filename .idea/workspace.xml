@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Eleventh task">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Twelfth task">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TeachMeSkills/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -55,7 +55,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1684864213712" duration="285000" />
       <workItem from="1684864934992" duration="1643000" />
-      <workItem from="1684870133330" duration="4958000" />
+      <workItem from="1684870133330" duration="7864000" />
     </task>
     <task id="LOCAL-00001" summary="Update template">
       <created>1684864256819</created>
@@ -148,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684874228782</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Twelfth task">
+      <created>1684875233230</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684875233230</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,23 @@
     <MESSAGE value="Ninth task" />
     <MESSAGE value="Tenth task" />
     <MESSAGE value="Eleventh task" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eleventh task" />
+    <MESSAGE value="Twelfth task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Twelfth task" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
