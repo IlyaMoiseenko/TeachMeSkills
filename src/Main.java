@@ -27,17 +27,37 @@ public class Main {
 
 
 
-        // FOURTH TASK
-        int[] values1 = WorkWithArray.CreateRandomArray();
-        int[] values2 = WorkWithArray.CreateRandomArray();
+//        // FOURTH TASK
+//        int[] values1 = WorkWithArray.CreateRandomArray();
+//        int[] values2 = WorkWithArray.CreateRandomArray();
+//
+//        System.out.println(Arrays.toString(values1));
+//        System.out.println(Arrays.toString(values2));
+//
+//        _biggestAverage(
+//                WorkWithArray.Average(values1),
+//                WorkWithArray.Average(values2)
+//        );
 
-        System.out.println(Arrays.toString(values1));
-        System.out.println(Arrays.toString(values2));
 
-        _biggestAverage(
-                WorkWithArray.Average(values1),
-                WorkWithArray.Average(values2)
-        );
+
+
+//        // FIFTH TASK
+//        boolean key = true;
+//        int sizeOfArray = 0;
+//
+//        while (key) {
+//            System.out.print("Enter size of array: ");
+//            sizeOfArray = _createScanner().nextInt();
+//
+//            if (sizeOfArray > 5 && sizeOfArray <= 10)
+//                key = false;
+//        }
+//
+//        int[] array = WorkWithArray.CreateRandomArray(sizeOfArray);
+//        System.out.println(Arrays.toString(array));
+//        int[] evenArray = _createArrayFromEvenElements(array);
+//        System.out.println(Arrays.toString(evenArray));
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
@@ -86,6 +106,21 @@ public class Main {
             System.out.println("Average #1 < Average #2");
         else
             System.out.println("equal");
+    }
+
+    private static int[] _createArrayFromEvenElements(int[] oldArray) {
+        int[] newArray = new int[10];
+
+        for (int i = 0; i < oldArray.length; i++) {
+            if (i == newArray.length)
+                newArray = Arrays.copyOf(newArray, newArray.length + 10);
+            else
+                if (oldArray[i] % 2 == 0)
+                    newArray[i] = oldArray[i];
+
+        }
+
+        return newArray;
     }
 
     private static Scanner _createScanner() {

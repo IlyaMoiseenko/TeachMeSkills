@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Create file for work with array">
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Fourth task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WorkWithArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkWithArray.java" afterDir="false" />
     </list>
@@ -56,7 +57,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685044490033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created a method for finding the average">
+      <created>1685106400160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685106400160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fourth task">
+      <created>1685106452052</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685106452052</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,6 +79,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create file for work with array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create file for work with array" />
+    <MESSAGE value="Created a method for finding the average" />
+    <MESSAGE value="Fourth task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth task" />
   </component>
 </project>
