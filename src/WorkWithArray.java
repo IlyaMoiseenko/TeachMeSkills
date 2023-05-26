@@ -35,4 +35,14 @@ public class WorkWithArray {
 
         return newArray;
     }
+
+    public static float Average(int[] values) {
+        int sum = 0;
+
+        for (int num : values) {
+            sum += num;
+        }
+
+        return (float) sum / values.length;
+    }
 }
