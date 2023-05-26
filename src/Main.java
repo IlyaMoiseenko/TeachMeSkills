@@ -58,6 +58,14 @@ public class Main {
 //        System.out.println(Arrays.toString(array));
 //        int[] evenArray = _createArrayFromEvenElements(array);
 //        System.out.println(Arrays.toString(evenArray));
+
+
+
+
+//        // SIXTH TASK
+//        int[] array = WorkWithArray.CreateArrayFromConsole();
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(_changeWithOddIndex(array)));
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
@@ -121,6 +129,15 @@ public class Main {
         }
 
         return newArray;
+    }
+
+    private static int[] _changeWithOddIndex(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 1)
+                array[i] = 0;
+        }
+
+        return array;
     }
 
     private static Scanner _createScanner() {
