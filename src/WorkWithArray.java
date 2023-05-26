@@ -25,8 +25,29 @@ public class WorkWithArray {
         return newArray;
     }
 
+    public static int[] CreateRandomArray(int size) {
+        int[] newArray = new int[size];
+
+        for (int i = 0; i < newArray.length; i++) {
+            newArray[i] = _getRandomNumber();
+        }
+
+        return newArray;
+    }
+
     public static int[] CreateArrayFromConsole() {
         int[] newArray = new int[_getSizeOfArray()];
+
+        for (int i = 0; i < newArray.length; i++) {
+            System.out.print("Enter number: ");
+            newArray[i] = _createScanner().nextInt();
+        }
+
+        return newArray;
+    }
+
+    public static int[] CreateArrayFromConsole(int size) {
+        int[] newArray = new int[size];
 
         for (int i = 0; i < newArray.length; i++) {
             System.out.print("Enter number: ");
