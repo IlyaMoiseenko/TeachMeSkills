@@ -23,6 +23,21 @@ public class Main {
 //        // THIRD TASK
 //        int[] array = WorkWithArray.CreateRandomArray();
 //        _findMaxMinAverage(array);
+
+
+
+
+        // FOURTH TASK
+        int[] values1 = WorkWithArray.CreateRandomArray();
+        int[] values2 = WorkWithArray.CreateRandomArray();
+
+        System.out.println(Arrays.toString(values1));
+        System.out.println(Arrays.toString(values2));
+
+        _biggestAverage(
+                WorkWithArray.Average(values1),
+                WorkWithArray.Average(values2)
+        );
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
@@ -51,22 +66,26 @@ public class Main {
     private  static void _findMaxMinAverage(int[] nums) {
         int max = nums[0];
         int min = nums[0];
-        float average = 0;
 
         for (int num : nums) {
             if (num > max) max = num;
             if (num < min) min = num;
-
-            average += num;
         }
-
-        average = average / nums.length;
 
         System.out.println(
                 "Min: " + min + "\n"
                 + "Max: " + max + "\n"
-                + "Average: " + average
+                + "Average: " + WorkWithArray.Average(nums)
         );
+    }
+
+    private static void _biggestAverage(float num1, float num2) {
+        if (num1 > num2)
+            System.out.println("Average #1 > Average #2");
+        else if (num2 > num1)
+            System.out.println("Average #1 < Average #2");
+        else
+            System.out.println("equal");
     }
 
     private static Scanner _createScanner() {
