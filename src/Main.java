@@ -16,6 +16,13 @@ public class Main {
 //        System.out.print("Enter value to delete: ");
 //        array = _removeElement(array, _createScanner().nextInt());
 //        System.out.println(Arrays.toString(array));
+
+
+
+
+//        // THIRD TASK
+//        int[] array = WorkWithArray.CreateRandomArray();
+//        _findMaxMinAverage(array);
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
@@ -39,6 +46,27 @@ public class Main {
         }
 
         return Arrays.copyOf(nums, nums.length - offset);
+    }
+
+    private  static void _findMaxMinAverage(int[] nums) {
+        int max = nums[0];
+        int min = nums[0];
+        float average = 0;
+
+        for (int num : nums) {
+            if (num > max) max = num;
+            if (num < min) min = num;
+
+            average += num;
+        }
+
+        average = average / nums.length;
+
+        System.out.println(
+                "Min: " + min + "\n"
+                + "Max: " + max + "\n"
+                + "Average: " + average
+        );
     }
 
     private static Scanner _createScanner() {
