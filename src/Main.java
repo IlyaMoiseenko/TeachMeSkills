@@ -66,6 +66,14 @@ public class Main {
 //        int[] array = WorkWithArray.CreateArrayFromConsole();
 //        System.out.println(Arrays.toString(array));
 //        System.out.println(Arrays.toString(_changeWithOddIndex(array)));
+
+
+
+
+//        // SEVENTH TASK
+//        String[] names = new String[] {"Ilya", "Marina", "Karina", "Katya", "Egor", "Lena", "Kolya"};
+//        Arrays.sort(names);
+//        System.out.println(Arrays.toString(names));
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
