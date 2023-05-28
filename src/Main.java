@@ -74,6 +74,13 @@ public class Main {
 //        String[] names = new String[] {"Ilya", "Marina", "Karina", "Katya", "Egor", "Lena", "Kolya"};
 //        Arrays.sort(names);
 //        System.out.println(Arrays.toString(names));
+
+
+
+
+//        // EIGHTH TASK
+//        int[] array = WorkWithArray.CreateRandomArray();
+//        System.out.println(Arrays.toString(WorkWithArray.BubbleSort(array)));
     }
 
     private static boolean _findNumber(int[] numbers, int searchNumber) {
