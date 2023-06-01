@@ -50,6 +50,26 @@ public class WorkWithMatrix {
         return newArray;
     }
 
+    public static void PrintMatrix(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+    }
+
+    public static void PrintMatrix(String[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix.length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+
+            System.out.println();
+        }
+    }
+
     public static void PrintMatrix(int[][][] values) {
         for (int i = 0; i < values.length; i++) {
             for (int j = 0; j < values.length; j++) {
