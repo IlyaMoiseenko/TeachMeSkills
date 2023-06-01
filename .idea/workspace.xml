@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Bug fix" />
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework_#3" />
+        <entry key="$PROJECT_DIR$" value="Homework_#5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Homework__#6",
     "onboarding.tips.debug.path": "/Users/mark/Downloads/TeachMeSkills/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -42,9 +52,77 @@
       <workItem from="1684264908106" duration="10000" />
       <workItem from="1684855924664" duration="52000" />
     </task>
+    <task id="LOCAL-00001" summary="Created a file for working with matrices">
+      <created>1685640434463</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685640434463</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task #1">
+      <created>1685640468047</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685640468047</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added methods for matrix output">
+      <created>1685641486933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685641486933</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Task #2">
+      <created>1685641515175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685641515175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added a method for matrix multiplication">
+      <created>1685642437343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642437343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task #3">
+      <created>1685642471684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642471684</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Task #4">
+      <created>1685642674777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642674777</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task #5">
+      <created>1685642909556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642909556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created a file for working with matrices" />
+    <MESSAGE value="Task #1" />
+    <MESSAGE value="Added methods for matrix output" />
+    <MESSAGE value="Task #2" />
+    <MESSAGE value="Added a method for matrix multiplication" />
+    <MESSAGE value="Task #3" />
+    <MESSAGE value="Task #4" />
+    <MESSAGE value="Task #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task #5" />
   </component>
 </project>
