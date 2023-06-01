@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #5" />
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Update template">
+      <change afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework_#5" />
+        <entry key="$PROJECT_DIR$" value="Homework_#6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,8 +40,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Homework__#6",
+    "git-widget-placeholder": "Homework__#7",
     "onboarding.tips.debug.path": "/Users/mark/Downloads/TeachMeSkills/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -51,6 +56,9 @@
       <updated>1684264907049</updated>
       <workItem from="1684264908106" duration="10000" />
       <workItem from="1684855924664" duration="52000" />
+      <workItem from="1685644216997" duration="927000" />
+      <workItem from="1685646226875" duration="28000" />
+      <workItem from="1685646982742" duration="1456000" />
     </task>
     <task id="LOCAL-00001" summary="Created a file for working with matrices">
       <created>1685640434463</created>
@@ -108,11 +116,29 @@
       <option name="project" value="LOCAL" />
       <updated>1685642909556</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update template">
+      <created>1685643982665</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685643982665</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a file for working with matrices" />
@@ -123,6 +149,7 @@
     <MESSAGE value="Task #3" />
     <MESSAGE value="Task #4" />
     <MESSAGE value="Task #5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task #5" />
+    <MESSAGE value="Update template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update template" />
   </component>
 </project>
