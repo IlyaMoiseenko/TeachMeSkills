@@ -44,6 +44,18 @@ public class Main {
 //        }
 //
 //        System.out.println("Sum: " + sum);
+
+
+
+
+        // TASK #5
+//        int[][] matrix = WorkWithMatrix.CreateRandomMatrix(5, 5);
+//        for (int i = 0; i < matrix.length; i++) {
+//            for (int j = i; j < matrix.length; j++) {
+//                System.out.println(matrix[i][j]);
+//                break;
+//            }
+//        }
     }
 
     private static void _increaseTheValues(int[][][] values) {
