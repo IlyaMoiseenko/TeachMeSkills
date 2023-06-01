@@ -30,6 +30,20 @@ public class Main {
 //        int[][] secondMatrix = WorkWithMatrix.CreateRandomMatrix(3, 3);
 //        int[][] resultOfMultiplication = WorkWithMatrix.MatrixMultiplication(firstMatrix, secondMatrix);
 //        WorkWithMatrix.PrintMatrix(resultOfMultiplication);
+
+
+
+
+        // TASK #4
+//        int sum = 0;
+//        int[][] matrix = WorkWithMatrix.CreateRandomMatrix();
+//        for (int i = 0; i < matrix.length; i++) {
+//            for (int j = 0; j < matrix.length; j++) {
+//                sum += matrix[i][j];
+//            }
+//        }
+//
+//        System.out.println("Sum: " + sum);
     }
 
     private static void _increaseTheValues(int[][][] values) {

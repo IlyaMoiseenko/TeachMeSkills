@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #3">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorkWithMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorkWithMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685641515175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a method for matrix multiplication">
+      <created>1685642437343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642437343</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Task #3">
+      <created>1685642471684</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642471684</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +107,8 @@
     <MESSAGE value="Task #1" />
     <MESSAGE value="Added methods for matrix output" />
     <MESSAGE value="Task #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task #2" />
+    <MESSAGE value="Added a method for matrix multiplication" />
+    <MESSAGE value="Task #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task #3" />
   </component>
 </project>
