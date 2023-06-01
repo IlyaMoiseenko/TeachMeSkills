@@ -81,4 +81,25 @@ public class WorkWithMatrix {
             }
         }
     }
+
+    public static int[][] MatrixMultiplication(int[][] firstMatrix, int[][] secondMatrix) {
+        int[][] resultMatrix = new int[firstMatrix.length][secondMatrix[0].length];
+
+        for (int row = 0; row < resultMatrix.length; row++) {
+            for (int col = 0; col < resultMatrix[row].length; col++) {
+                resultMatrix[row][col] = multiplyMatricesCell(firstMatrix, secondMatrix, row, col);
+            }
+        }
+
+        return resultMatrix;
+    }
+
+    private static int multiplyMatricesCell(int[][] firstMatrix, int[][] secondMatrix, int row, int col) {
+        int cell = 0;
+
+        for (int i = 0; i < secondMatrix.length; i++) {
+            cell += firstMatrix[row][i] * secondMatrix[i][col];
+        }
+        return cell;
+    }
 }
