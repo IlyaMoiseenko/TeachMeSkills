@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -55,6 +56,16 @@ public class Main {
 //                System.out.println(matrix[i][j]);
 //                break;
 //            }
+//        }
+
+
+
+
+        // TASK #6
+//        int[][] matrix = WorkWithMatrix.CreateRandomMatrix(10, 10);
+//
+//        for (int i = 0; i < matrix.length; i++) {
+//            Arrays.sort(matrix[i]);
 //        }
     }
 

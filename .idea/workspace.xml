@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #3">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685642471684</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Task #4">
+      <created>1685642674777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642674777</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Task #5">
+      <created>1685642909556</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685642909556</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +121,8 @@
     <MESSAGE value="Task #2" />
     <MESSAGE value="Added a method for matrix multiplication" />
     <MESSAGE value="Task #3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task #3" />
+    <MESSAGE value="Task #4" />
+    <MESSAGE value="Task #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task #5" />
   </component>
 </project>
