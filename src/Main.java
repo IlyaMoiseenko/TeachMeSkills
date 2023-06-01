@@ -7,6 +7,20 @@ public class Main {
 //        WorkWithMatrix.PrintMatrix(values);
 //        _increaseTheValues(values);
 //        WorkWithMatrix.PrintMatrix(values);
+
+
+
+
+        // TASK #2
+//        String[][] stringMatrix = new String[8][8];
+//        for (int i = 0; i < stringMatrix.length; i++) {
+//            for (int j = 0; j < stringMatrix.length; j++) {
+//                if (j % 2 == 1) stringMatrix[i][j] = "B";
+//                else stringMatrix[i][j] = "W";
+//            }
+//        }
+//
+//        WorkWithMatrix.PrintMatrix(stringMatrix);
     }
 
     private static void _increaseTheValues(int[][][] values) {
