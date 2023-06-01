@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Update template">
-      <change afterPath="$PROJECT_DIR$/src/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/HDD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_2/RAM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <workItem from="1684855924664" duration="52000" />
       <workItem from="1685644216997" duration="927000" />
       <workItem from="1685646226875" duration="28000" />
-      <workItem from="1685646982742" duration="1456000" />
+      <workItem from="1685646982742" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="Created a file for working with matrices">
       <created>1685640434463</created>
