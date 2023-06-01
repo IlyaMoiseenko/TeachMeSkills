@@ -21,6 +21,15 @@ public class Main {
 //        }
 //
 //        WorkWithMatrix.PrintMatrix(stringMatrix);
+
+
+
+
+        // TASK #3
+//        int[][] firstMatrix = WorkWithMatrix.CreateRandomMatrix(3, 3);
+//        int[][] secondMatrix = WorkWithMatrix.CreateRandomMatrix(3, 3);
+//        int[][] resultOfMultiplication = WorkWithMatrix.MatrixMultiplication(firstMatrix, secondMatrix);
+//        WorkWithMatrix.PrintMatrix(resultOfMultiplication);
     }
 
     private static void _increaseTheValues(int[][][] values) {
