@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #5" />
+    <list default="true" id="82db05aa-1fad-4826-bbdf-0a2a637a574a" name="Changes" comment="Task #5">
+      <change afterPath="$PROJECT_DIR$/src/task_1/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_1/Figure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_1/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Homework_#5" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Homework__#6",
+    "git-widget-placeholder": "Homework__#8",
     "onboarding.tips.debug.path": "/Users/mark/Downloads/TeachMeSkills/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
