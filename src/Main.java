@@ -51,12 +51,14 @@ public class Main {
 
         // TASK #5
 //        int[][] matrix = WorkWithMatrix.CreateRandomMatrix(5, 5);
-//        for (int i = 0; i < matrix.length; i++) {
-//            for (int j = i; j < matrix.length; j++) {
-//                System.out.println(matrix[i][j]);
-//                break;
-//            }
-//        }
+//        WorkWithMatrix.PrintMatrix(matrix);
+//        for (int i = 0; i < matrix.length; i++)
+//            System.out.println(matrix[i][i]);
+//
+//        System.out.println("------");
+//
+//        for (int i = 0; i < matrix.length; i++)
+//            System.out.println(matrix[i][matrix.length - 1 - i]);
 
 
 
