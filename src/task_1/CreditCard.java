@@ -1,32 +1,43 @@
 package task_1;
 
-import java.math.BigDecimal;
-
 public class CreditCard {
+    // FIELDS
     private double _accountNumber;
     private double _currentAmount;
 
+    // CONSTRUCTORS
     public CreditCard(double currentAmount) {
         _currentAmount = currentAmount;
         _accountNumber = Math.random();
     }
 
+    // GETTERS AND SETTERS
+    public double GetAmount() {
+        return _currentAmount;
+    }
+    public void SetAmount(double newAmount) {
+        if (newAmount > 0) _currentAmount = newAmount;
+    }
+
+    public double GetAccountNumber() {
+        return _accountNumber;
+    }
+
+    // METHODS
     public void AddAmount(double amount) {
-        if (_checkAmount(amount)) System.out.println("negative value");
+        if (_checkNegativeAmount(amount)) System.out.println("negative value");
         else _currentAmount += amount;
     }
 
     public void WithdrawMoney(double amount) {
-        if (_checkAmount(amount)) System.out.println("negative value");
+        if (_checkNegativeAmount(amount)) System.out.println("negative value");
 
-        if (_currentAmount - amount == 0) System.out.println("insufficient funds to withdraw");
+        if (_currentAmount - amount <= 0 || amount > _currentAmount) System.out.println("insufficient funds to withdraw");
         else _currentAmount -= amount;
     }
 
-    private boolean _checkAmount(double amount) {
-        if (amount < 0) return true;
-
-        return false;
+    private boolean _checkNegativeAmount(double amount) {
+        return amount < 0;
     }
 
     @Override
