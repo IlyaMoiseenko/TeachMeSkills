@@ -3,10 +3,12 @@ package task_1;
 import task_1.Abstractions.Figure;
 
 public class Triangle extends Figure {
+    // FIELDS
     private double _sideA;
     private double _sideB;
     private double _sideC;
 
+    // CONSTRUCTORS
     public Triangle(String name, double _sideA, double _sideB, double _sideC) {
         super(name);
         this._sideA = _sideA;
@@ -14,6 +16,29 @@ public class Triangle extends Figure {
         this._sideC = _sideC;
     }
 
+    // GETTERS AND SETTERS
+    public double GetSideA() {
+        return _sideA;
+    }
+    public void SetSideA(double newSideA) {
+        _sideA = newSideA;
+    }
+
+    public double GetSideB() {
+        return _sideB;
+    }
+    public void SetSideB(double newSideB) {
+        _sideB = newSideB;
+    }
+
+    public double GetSideC() {
+        return _sideC;
+    }
+    public void SetSideC(double newSideC) {
+        _sideC = newSideC;
+    }
+
+    // METHODS
     @Override
     public double GetSquare() {
         double halfArea = _getHalfArea();
