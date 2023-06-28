@@ -1,5 +1,7 @@
 import task_1.exceptions.baseExceptions.StringException;
 import task_1.utils.WorkWithString;
+import task_2.Exceptions.BaseExceptions.InputDataException;
+import task_2.Input.InputData;
 
 public class Main {
     private static final StringBuilder documentNumber = new StringBuilder("1234-qWe-5678-yhN-1a2b");
@@ -14,5 +16,13 @@ public class Main {
 //        } catch (StringException exception) {
 //            System.out.println(exception.getMessage());
 //        }
+
+        // TASK #2
+//        try {
+//            System.out.println(InputData.checkInputData("IlyaMoiseenko", "IlyaMoiseenko1", "IlyaMoiseenko1"));
+//        } catch (InputDataException exception) {
+//            System.out.println(exception.getMessage());
+//        }
+
     }
 }
