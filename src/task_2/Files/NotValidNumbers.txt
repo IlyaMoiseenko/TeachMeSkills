@@ -1,0 +1,5 @@
+Docnum-12-532-5 - The document must begin with the prefix "docnum" or "contract"
+Contract-rnfc-3 - The document must begin with the prefix "docnum" or "contract"
+contractfjfah - The document number must be 15 characters long
+contractSA - The document number must be 15 characters long
+contrac3a7bucar - The document must begin with the prefix "docnum" or "contract"

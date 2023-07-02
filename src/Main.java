@@ -1,4 +1,4 @@
-import task_1.utils.InputOutput;
+import task_2.utils.InputOutput;
 
 import java.io.File;
 
@@ -7,6 +7,6 @@ public class Main {
         InputOutput inputOutput = new InputOutput();
         File file = inputOutput.chooseFile();
 
-        inputOutput.outputFile(file);
+        inputOutput.sortNumberToValidAndNotValid(file);
     }
 }
