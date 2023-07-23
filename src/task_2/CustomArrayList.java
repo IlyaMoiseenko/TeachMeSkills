@@ -49,7 +49,14 @@ public class CustomArrayList<T> implements CustomList<T> {
 
     @Override
     public T get(int index) {
+        checkIndexOutOfBounds(index);
         return elements[index];
+    }
+
+    private void checkIndexOutOfBounds(int index) {
+        if (index < 0 || index >= elements.length) {
+            throw new IndexOutOfBoundsException("Index: " + index + ", Size: " + elements.length);
+        }
     }
 
     @Override
