@@ -1,0 +1,13 @@
+contract1234567t - The document number must be 15 characters long
+contract12345677 - The document number must be 15 characters long
+contrac12345678 - The document must begin with the prefix "docnum" or "contract"
+contract12345678 - The document number must be 15 characters long
+contract1234567 - Valid
+contract - The document number must be 15 characters long
+contract12345647 - The document number must be 15 characters long
+conract1234567 - The document number must be 15 characters long
+contract123 - The document number must be 15 characters long
+contract1234567g - The document number must be 15 characters long
+conract123456778 - The document number must be 15 characters long
+docnum123456712 - Valid
+contract1234567ew - The document number must be 15 characters long
